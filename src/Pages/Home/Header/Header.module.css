@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+
+
+.header {
+    width: auto;
+    height: 100vh;
+    background-image: url('./header3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.headerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Stylish', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    color: #ffffff;
+}
+
+.headerContent a {
+    padding: 5px 10px;
+    color: #3f3e3f;
+    font-weight: 600;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: x-large;
+    background-color: #ffffff;
+    border: 1px solid #707070
+}
+
+.headerContent button:focus {
+    outline: none;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .headerContent h1 {
+        font-size: larger;
+    }
+
+    .headerContent a {
+        font-size: large;
+    }
+}

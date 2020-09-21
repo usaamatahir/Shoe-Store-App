@@ -1,0 +1,55 @@
+{
+    "products": [
+        {
+            "_productId": 1,
+            "name": "Nike Metcon",
+            "price": 93,
+            "description": "The most breathable version yet, the Nike Metcon 6 helps keep your foot cool when you're going full steam. It stands up to the push and pull of heavily weighted and high-intensity workouts, delivering stability and durability.",
+            "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/828f8e96-1744-4bac-b7d1-b2c501abcd54/metcon-6-mens-training-shoe-MdLCnw.jpg"
+        },
+        {
+            "_productId": 2,
+            "name": "Nike Air Zoom Pegasus",
+            "price": 73,
+            "description": "Reinvigorate your stride with the Nike Air Zoom Pegasus 37. Delivering the same fit and feel that runners love, the shoe has an all-new forefoot cushioning unit and foam for maximum responsiveness. The result is a durable, lightweight trainer designed for everyday running.",
+            "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/9510a4da-fdca-4db0-bb43-e401bb00c571/air-zoom-pegasus-37-womens-running-shoe-Jl0bDf.jpg"
+        },
+        {
+            "_productId": 3,
+            "name": "Nike SuperRep Cycle",
+            "price": 88,
+            "description": "The Nike SuperRep Cycle brings a breathable design to the high-heat, fast pace of indoor cycling. Adjustable straps secure your foot during intense movement as you push forward. Cleats are not included.",
+            "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/a164a629-1353-4f02-85e5-62fed505f738/superrep-cycle-mens-indoor-cycling-shoe-bsXw1J.jpg"
+        },
+
+        
+
+        {
+            "_productId": 4,
+            "name": "Nike Flex Runner",
+            "price": 56,
+            "description": "The Nike Flex Runner is built to be light and flexible to help you feel fast on your feet. The stretchy slip-on design has leather on the sides to create structure and support while you run. A flexible foam sole provides lightweight cushioning.",
+            "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/i1-c6e186ef-0cab-46b8-a5d7-bd5f8e38eefd/flex-runner-big-kids-shoe-QQsbLl.jpg"
+            
+        },
+
+        {
+            "_productId": 5,
+            "name": "Nike Metcon 6 X",
+            "price": 99,
+            "description": "The most breathable version yet, the Nike Metcon 6 X helps keep your foot cool when you're going full steam. It stands up to the push and pull of heavily weighted and high-intensity workouts.",
+            "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/15de4784-b679-4935-90b5-b6ae9d0cbc0c/metcon-6-x-womens-training-shoe-H1Kc28.jpg"
+            
+        },
+        {
+            "_productId": 6,
+            "name": "Nike Air Zoom Speed",
+            "price": 87,
+            "description": "Look fast and feel faster in the Nike Air Zoom Speed. Our iconic Zoom Air pods are made just right for kids. So lightweight all around and cushioned where needed, you’ll be zooming around the neighborhood and track in no time.",
+            "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/78f21de6-bdcb-4c96-909c-076cbca1e051/air-zoom-speed-little-big-kids-running-shoe-bW4W4n.jpg"
+            
+        }
+
+        
+    ]
+}

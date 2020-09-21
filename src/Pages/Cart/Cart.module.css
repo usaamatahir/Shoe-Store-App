@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+
+
+
+.CartBox {
+    width: 90vw;
+    margin: 5% auto;
+    align-items: center;
+    text-align: center;
+    background-color: #003169;
+    font-family: 'Stylish', sans-serif;
+    color: #ffffff;
+}
+
+.cartItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.cartImg {
+    width: 100px;
+}
+
+.Quantity {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
