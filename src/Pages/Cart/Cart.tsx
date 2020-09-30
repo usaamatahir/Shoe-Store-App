@@ -14,54 +14,36 @@ interface cartType {
 }
 const Cart = () => {
 
-    let { cartItems } = useContext(CartContext);
-
-    let [quantity, setQuantity] = useState(1);
-
-
-    const Increase = () => {
-        quantity += 1;
-        setQuantity(quantity);
+    let { cartItems, removeFromCart } = useContext(CartContext);
+    
+    const removeCart = (id: number) => {
+        removeFromCart(id)
     }
-
-    const Decrease = () => {
-        if (quantity === 1) {
-            return
-        }
-
-        quantity -= 1;
-        setQuantity(quantity);
-    }
-
     return (
         <div>
             <Grid container spacing={3} className={styles.CartBox}>
-                <Grid item xs={5}>
+                <Grid item md={4} xs={8}>
                     <h1>Item</h1>
                 </Grid>
-                <Grid item xs={3}>
-                    <h1>Price</h1>
-                </Grid>
                 <Grid item xs={4}>
-                    <h1>Quantity</h1>
+                    <h1>Price</h1>
                 </Grid>
             </Grid>
 
-                {cartItems.map((item: cartType) => (
-                    < Grid container >
-                        <Grid item xs={5}>
-                            <Grid container className={styles.cartItem}>
-                                <Grid item xs={8}><img className={styles.cartImg} src={item.image} alt={item.name} /></Grid>
-                                <Grid item xs={4}><h2>{item.name}</h2></Grid>
-                            </Grid>
+                {cartItems.map((item: cartType, index: number) => (
+                    < Grid container spacing={3} key={index} className={styles.CartProduct} >
+                        <Grid item md={4} xs={8} className={styles.CartItem}>
+                            <span><img className={styles.cartImg} src={item.image} alt={item.name} /></span>
+                            <span><h2 className={styles.Name}>{item.name}</h2></span>
                         </Grid>
-                        <Grid item xs={3}>
-                            <h2>$ {item.price * quantity}</h2>
+                        <Grid item xs={4}>
+                            <h2>$ {item.price}</h2>
                         </Grid>
-                        <Grid item xs={4} className={styles.Quantity}>
-                            <button onClick={Decrease}><RemoveIcon></RemoveIcon></button>
-                            <h2>{quantity}</h2>
-                            <button onClick={Increase}><AddIcon></AddIcon></button>
+
+                        <Grid item md={4} xs={12}>
+                            <button className={styles.Remove} onClick={() => {
+                                removeCart(item.id)
+                            }}>Remove from Cart</button>
                         </Grid>
                     </ Grid>
                 ))}

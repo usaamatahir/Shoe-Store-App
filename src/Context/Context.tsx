@@ -9,7 +9,9 @@ interface cartType {
 }
 
 const initialState = {
-    cartItems:  []
+    cartItems: [],
+    addToCart: ({ id, name, price, image }: cartType) => {},
+    removeFromCart: (id: number) => {},
 }
 
 
@@ -42,9 +44,8 @@ export const ContextProvider = ({ children }: any) => {
     return (
         <CartContext.Provider value={{
             cartItems: state.cartItems,
-            //@ts-ignore
             addToCart,
-            removeFromCart,
+            removeFromCart
         }}>
             {children}
         </CartContext.Provider>
