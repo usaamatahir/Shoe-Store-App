@@ -1,3 +1,3 @@
 # Shoe Store App
 
-[ Here's the App Link ] (https://shoestoreapp.netlify.app/)
+[ Here's the App Link ](https://shoestoreapp.netlify.app/)
